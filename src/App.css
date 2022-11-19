@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background-color: #BFD7FF;
+  height: 100vh;
+}
+
+.counter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9BB1FF;
+}
+
+.counterDiv
+{
+margin-right: 10vw;
+margin-left: 10vw;
+}
+
+.dogimg img{
+  object-fit: cover;
+  height:50vh;
+  max-width: 60vw;
+  margin-top: 5vh;
+}
+
+.likes{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.likeDiv{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 3vh;
+}
+
+button{
+  background-color: #788BFF;
+  padding:10px;
+  border-radius: 5px;
+
+}
+
+@media(max-width:500px){
+  .dogimg img{
+    height:40vh;
+
+  }
+}
